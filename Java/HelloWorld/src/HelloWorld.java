@@ -82,7 +82,7 @@ public class HelloWorld {
         int zmienna = scanner.nextInt();
         if (zmienna < 5) {
             if (zmienna == 4) {
-                if (number2 == 0) {
+                while (number2 == 0) {
                     System.out.println("Nie dzielimy przez zero!");
                     System.out.println("Popraw dane");
                     System.out.println("Pierwsza liczba to: " + number);
@@ -112,7 +112,6 @@ public class HelloWorld {
         else{
             System.out.print("Dziękuje za skorzystanie z kalkulatora");
         }
-        System.out.print("Dziękuje za skorzystanie z kalkulatora");
     }
 }
 
